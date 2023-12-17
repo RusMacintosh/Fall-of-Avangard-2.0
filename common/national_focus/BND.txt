@@ -1,0 +1,128 @@
+focus_tree = {
+	id = BND
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = BND
+		}
+	}
+	default = no
+	focus = {
+		id = BND_Yazov
+		icon = GFX_focus_generic_military_mission
+		cost = 0.5
+		x = 9
+		y = 0
+		completion_reward = {
+			# EFFECTS listed here
+			add_stability = 0.15
+			add_political_power = 15
+			
+			hidden_effect = {
+				country_event = BND.1
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+	
+
+	focus = {
+		id = BND_upgrade_bund
+		icon = GFX_focus_generic_self_management
+		cost = 0.5
+		prerequisite = {
+			focus = BND_Yazov
+		}
+		x = 9
+		y = 1
+		completion_reward = {
+			# EFFECTS listed here
+			add_stability = 0.15
+			add_political_power = 15
+			hidden_effect = {
+				country_event = BND.2
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+
+	}
+	focus = {
+		id = BND_its_not_working
+		icon = GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny
+		cost = 0.5
+		prerequisite = {
+			focus = BND_upgrade_bund
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = BND_successer
+		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+		cost = 1
+		prerequisite = {
+			focus = BND_its_not_working
+		}
+		mutually_exclusive = {
+			focus = BND_Yazov_back
+		}
+		x = 9
+		y = 3
+		ai_will_do = {
+			factor = 15
+		}
+
+	}
+	focus = {
+		id = BND_Yazov_back
+		icon = GFX_goal_generic_secret_weapon
+		cost = 1
+		prerequisite = {
+			focus = BND_its_not_working
+		}
+		mutually_exclusive = {
+			focus = BND_successer
+		}
+		x = 15
+		y = 3
+		ai_will_do = {
+			factor = 5
+		}
+
+	}
+	focus = {
+		id = BND_dont_trust_democracy
+		icon = GFX_goal_generic_CAS
+		cost = 10,00
+		prerequisite = {
+			focus = BND_Yazov_back
+		}
+		x = 15
+		y = 4
+		ai_will_do = {
+			factor = 5
+		}
+
+	}
+	focus = {
+		id = BND_eternal
+		icon = GFX_goal_generic_attack_allies
+		cost = 10,00
+		prerequisite = {
+			focus = BND_dont_trust_democracy
+		}
+		x = 15
+		y = 5
+		ai_will_do = {
+			factor = 5
+		}
+
+	}
+}

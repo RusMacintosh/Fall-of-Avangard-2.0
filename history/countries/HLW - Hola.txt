@@ -1,0 +1,82 @@
+capital = 133 ##Наша столица
+
+oob = "FRA_1936" ##GEG - Тег, заменить
+
+set_research_slots = 2 #Количество ячеек исследования
+
+# Технологии, какие будут открыты при старте
+set_technology = {
+	infantry_weapons = 2
+	infantry_weapons1 = 2
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 2
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+set_politics = {
+	ruling_party = neutrality ##Рулевая партия
+	last_election = "1912.1.1" ##Последние выборы (если есть)
+	election_frequency = 1 ##Через сколько проводят выборы
+	elections_allowed = no ##Есть ли выборы
+}
+
+set_popularities = {
+	democratic = 60  ##Демократия
+	neutrality = 40 ##Нейтралитет
+	communism = 0 ##Коммунизм
+	fascism = 0 ##Фашизм
+}
+
+create_country_leader = {
+    name = "Kavardak"
+    desc = ""
+    picture = "gfx/leaders/AVG/Portrait_maksa.dds"
+    expire = "1965.1.1"
+    ideology = moderatism
+    traits = {
+        #
+    }
+}
+
+
+create_country_leader = {
+    name = "Askari"
+    desc = ""
+    picture = "gfx/leaders/AVG/Portrait_maksa.dds"
+    expire = "1965.1.1"
+    ideology = conservatism
+    traits = {
+        #
+    }
+}
+
+# Лидер Страны
+create_country_leader = {
+    name = "SanuresS"
+    desc = ""
+    picture = "gfx/leaders/AVG/Portrait_Sanuress.dds" #Картинка
+    expire = "1965.1.1" #Когда умрет
+    ideology = marxism
+	##За какую Идеологию (входит в types у коммунистов)
+    #conservatism, liberalism и socialism - демократия
+    #marxism, leninism, stalinism, anti_revisionism, anarchist_communism - коммунизм
+    #nazism, fascism_ideology, falangism, rexism - национализм 
+    #despotism, oligarchism, moderatism и moderatism - нейтралитет 
+    traits = {
+        #
+    }
+}

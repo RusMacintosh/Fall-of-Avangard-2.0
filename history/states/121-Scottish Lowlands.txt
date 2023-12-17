@@ -1,0 +1,36 @@
+
+state={
+	id=121
+	name="STATE_121"
+
+	history={
+		owner = DSC
+		victory_points = {
+			9392 10 
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			
+
+		}
+		add_core_of = DSC
+		2021.9.30 = {
+			owner = DSC
+			controller = ABC
+
+		}
+
+	}
+
+	provinces={
+		9314 9392 11378 
+	}
+	manpower=1431624
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,178 @@
+focus_tree = {
+	id = AVG1
+	country = {
+        factor = 0
+        modifier = {
+			add = 50
+			tag = AVG
+		}
+    }
+	default = no
+
+    
+	continuous_focus_position = { x = 1250 y = 280 }	
+	default = no
+	focus = {
+		id = AVG_Election_Results
+		icon = GFX_focus_generic_treaty
+		cost = 0,142857142857143
+		x = 5
+		y = 0
+		completion_reward = { 
+    		add_stability = 0.25
+    		add_political_power = 100
+  		} 
+
+	}
+	focus = {
+		id = AVG_Start_reforms
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 3,571428571428571
+		prerequisite = {
+			focus = AVG_Election_Results
+		}
+		x = 5
+		y = 2
+		completion_reward = { 
+			add_war_support = 25
+			army_experience = 15
+			navy_experience = 10
+			air_experience = 5
+    		add_political_power = 100
+			country_event = AVG.2
+  		}
+	}
+	focus = {
+		id = AVG_Militarization_population
+		icon = GFX_focus_generic_manpower
+		cost = 2,857142857142857
+		prerequisite = {
+			focus = AVG_Start_reforms
+		}
+		x = 3
+		y = 3
+		completion_reward = {
+			add_manpower = 120000
+  		}
+
+	}
+	focus = {
+		id = AVG_New_constitution
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 5
+		prerequisite = {
+			focus = AVG_Start_reforms
+		}
+		x = 5
+		y = 3
+		completion_reward = {
+			add_war_support = 0.2
+			add_stability = 0.25
+    		add_political_power = 100
+  		}
+
+	}
+	focus = {
+		id = AVG_defensive_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 4,285714285714286
+		prerequisite = {
+			focus = AVG_Start_reforms
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+			add_war_support = 0.15
+			16 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			24 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			30 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+  		}
+
+	}
+	focus = {
+		id = AVG_Final_preparation
+		icon = GFX_focus_secret_rearmament
+		cost = 1,428571428571429
+		prerequisite = {
+			focus = AVG_New_constitution
+		}
+		prerequisite = {
+			focus = AVG_Militarization_population
+		}
+		prerequisite = {
+			focus = AVG_defensive_industry
+		}
+		x = 5
+		y = 4
+		completion_reward = {
+  		}
+
+	}
+	focus = {
+		id = AVG_Great_war
+		icon = GFX_focus_ger_strike_at_the_source
+		cost = 0,714285714285714
+		prerequisite = {
+			focus = AVG_Final_preparation
+		}
+		x = 5
+		y = 6
+		completion_reward = {
+			# EFFECTS listed here
+			add_stability = 0.5
+			add_political_power = 100
+			hidden_effect = {
+				country_event = AVG.4
+			}
+		
+  		}
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=940
+	name="STATE_940"
+	history={
+		owner = USI
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = DSC
+		set_demilitarized_zone = yes
+		victory_points = {
+			6124 1 
+		}
+		
+
+	}
+	provinces={
+		31 45 88 146 272 359 3027 3041 3139 3264 3270 3363 6124 6162 6171 6274 6288 6297 9146 9192 9370 10200 11087 11124 11133 11170 11193 11365 
+	}
+	manpower=1465212
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

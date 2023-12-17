@@ -1,0 +1,39 @@
+state={
+	id=35
+	name="STATE_35"
+
+	history={
+		owner = WIT
+		add_core_of = WIT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			9498 = {
+				naval_base = 10
+
+			}
+		}
+		victory_points = {
+			3262 5 
+		}
+		victory_points = {
+			6496 3 
+		}
+		victory_points = {
+			11562 1 
+		}
+		victory_points = {
+			9498 5 
+		}
+
+	}
+
+	provinces={
+		480 3262 6496 6500 9431 11456 11562 9498
+	}
+	manpower=1449000
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=0.0 
+}

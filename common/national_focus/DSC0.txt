@@ -1,0 +1,34 @@
+focus_tree = {
+	id = DSC0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DSC
+		}
+	}
+	default = no
+	focus = {
+		id = DSC
+		icon = GFX_focus_ETH_freedom_at_gunpoint
+		cost = 0.20
+		x = 7
+		y = 0
+		ai_will_do = {
+			factor = 100
+		}
+		available = {
+			AVG = {
+				has_war_with = USI
+				controls_state = 219
+			}
+			SIR = {
+				has_war_with = USI
+			}
+		}
+		completion_reward = {
+			country_event = avg.5
+		}
+
+	}
+}

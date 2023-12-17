@@ -1,0 +1,27 @@
+
+state={
+	id=262
+	name="STATE_262"
+	resources={
+		oil=7.000
+	}
+
+	history={
+		owner = DSC
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = DSC
+		add_core_of = KOM
+
+	}
+
+	provinces={
+		154 6016 6177 6538 9099 9121 9230 
+	}
+	manpower=21795
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

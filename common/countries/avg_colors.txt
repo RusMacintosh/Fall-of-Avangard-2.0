@@ -1,0 +1,68 @@
+DSC = {
+	color_ui = rgb {74 80 89}
+	color = rgb {74 80 89}
+}
+AVG = {
+	color_ui = rgb {173 17 30}
+	color = rgb {173 17 30}
+}
+GUG = {
+	color_ui = rgb {223 209 168}
+	color = rgb {223 209 168}
+}
+WIT = {
+	color_ui = rgb {225 127 39}
+	color = rgb {225 127 39}
+}
+USI = {
+	color_ui = rgb {0 162 232}
+	color = rgb {0 162 232}
+}
+VIS= {
+	color_ui = rgb { 112 41 99 }
+	color = rgb { 112 41 99 }
+}
+BND= {
+	color_ui = rgb { 71 74 81 }
+	color = rgb { 71 74 81 }
+}
+ABC = {
+	color_ui = rgb {17 52 76}
+	color = rgb {17 52 76}
+}
+HLW = {
+	color_ui = rgb {157 245 77}
+	color = rgb {157 245 77}
+}
+VLK = {
+	color_ui = rgb {48 48 48}
+	color = rgb {48 48 48}
+}
+TTY = {
+	color_ui = rgb {48 48 48}
+	color = rgb {48 48 48}
+}
+TMM = {
+	color_ui = rgb {48 48 48}
+	color = rgb {48 48 48}
+}
+TTM = {
+	color_ui = rgb {48 48 48}
+	color = rgb {48 48 48}
+}
+OSB = {
+	color_ui = rgb {48 48 48}
+	color = rgb {48 48 48}
+}
+PIN = { 
+    color_ui = rgb {48 48 48}
+	color = rgb {48 48 48}
+}
+ABU = { 
+    color_ui = rgb {18 116 1}
+	color = rgb {18 116 1}
+}
+SOT = {
+	color_ui = rgb {82 67 74}
+	color = rgb {82 67 74}
+}

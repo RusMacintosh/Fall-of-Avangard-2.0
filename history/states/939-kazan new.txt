@@ -1,0 +1,32 @@
+state={
+	id=939
+	name="STATE_939"
+	history={
+		owner = USI
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+
+		}
+		victory_points = {
+			6352 10 
+		}
+		add_core_of = DSC
+set_demilitarized_zone = yes
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+
+			}
+
+		}
+
+	}
+	provinces={
+		292 355 403 3214 3328 3348 6308 6323 6352 6368 9385 9401 9514 10301 11339 11389 11496 
+	}
+	manpower=14575
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,66 @@
+capital = 2 ##Наша столица
+
+oob = "GUG_1936" ##GEG - Тег, заменить
+
+set_research_slots = 3 #Количество ячеек исследования
+
+# Технологии, какие будут открыты при старте
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+set_politics = {
+	ruling_party = communism ##Рулевая партия
+	last_election = "2021.1.1" ##Последние выборы (если есть)
+	election_frequency = 48 ##Через сколько проводят выборы
+	elections_allowed = yes ##Есть ли выборы
+}
+
+set_popularities = {
+	democratic = 0  ##Демократия
+	neutrality = 35 ##Нейтралитет
+	communism = 65 ##Коммунизм
+	fascism = 0 ##Фашизм
+}
+
+create_country_leader = {
+    name = "-DarkFairy-"
+    desc = ""
+    picture = "gfx/leaders/SIR/Fairy.dds"
+    expire = "1965.1.1"
+    ideology = marxism
+    traits = {
+        #
+    }
+}
+
+# Лидер Страны
+create_country_leader = {
+    name = "Fhalanx"
+    desc = ""
+    picture = "gfx/leaders/AVG/Portrait_Sanuress.dds" #Картинка
+    expire = "1965.1.1" #Когда умрет
+    ideology = despotism
+    traits = {
+        #
+    }
+}
+}

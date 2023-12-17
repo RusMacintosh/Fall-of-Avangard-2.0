@@ -1,0 +1,101 @@
+focus_tree = {
+    id =  AVG
+    default = no
+
+    country = {
+        factor = 0
+        modifier = {
+			add = 50
+			tag = AVG
+		}
+    }
+	continuous_focus_position = { x = 1250 y = 280 }	 
+	focus = {
+		id = AVG_Elect
+		icon = GFX_focus_generic_military_mission
+		x = 2
+		y = 0
+		cost = 0.5
+		available = {
+			# CONDITIONS listed here
+			
+		}
+		completion_reward = {
+			# EFFECTS listed here
+			add_stability = 0.5
+			add_political_power = 100
+			country_event = AVG.1
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	focus = {
+		id = AVG_Maks
+		icon = GFX_focus_generic_military_mission
+		x = 1
+		y = 1
+		cost = 0.5
+		prerequisite = { focus = AVG_Elect }
+		
+		available = {
+			# CONDITIONS listed here
+			
+		}
+		mutually_exclusive = {
+			focus= AVG_SanuresS
+		}
+		completion_reward = {
+			# EFFECTS listed here
+			
+			add_popularity = {
+				ideology = neutrality
+    			popularity = 0.15
+			}
+			hidden_effect = {
+				set_politics = {
+				ruling_party = neutrality
+    			elections_allowed = no
+   			 	last_election = "1936.3.1"
+				}
+				load_focus_tree = AVG_maks
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		} 
+	}
+	focus = {
+		id = AVG_SanuresS
+		icon = GFX_focus_generic_military_mission
+		x = 3
+		y = 1
+		cost = 0.5
+		prerequisite = { focus = AVG_Elect }
+		available = {
+			# CONDITIONS listed here
+			
+		}
+		mutually_exclusive = {
+			focus= AVG_Maks
+		}
+		completion_reward = {
+			# EFFECTS listed here
+			hidden_effect = {
+				set_politics = {
+					ruling_party = communism
+					elections_allowed = no
+					last_election = "1936.3.1"
+				}
+				load_focus_tree = AVG1
+			}
+			add_popularity = {
+				ideology = communism
+    			popularity = 0.15
+			}
+		}
+		ai_will_do = {
+			factor = 5
+		}
+	}
+}

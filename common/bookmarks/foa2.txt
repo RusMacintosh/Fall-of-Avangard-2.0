@@ -1,0 +1,140 @@
+bookmarks = {
+    bookmark = {    # Relatively empty bookmark
+        name = foa_start
+        desc = foa_start_desc
+        date = 2021.1.1.12
+        picture = GFX_select_date_1936
+
+		default = yes
+        default_country = AVG
+
+		
+		
+		USI={
+			history = "USI_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		WIT={
+			history = "WIT_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		AVG={
+			history = "AVG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+				AVG_Great_war
+			}
+		}
+		VLK={
+			history = "VLK_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = { 
+			}
+			focuses = {
+				AVG_Great_war
+			}
+		}
+		SIR={
+			history = "SIR_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+				AVG_Great_war
+			}
+		}
+		
+		"BND"={
+			minor = yes
+			history = "BND_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+				BND_Yazov
+			}
+		}
+		
+        "---" = {
+            history = OTHER_SCENARIO1_DESC
+        }
+        effect = {
+            randomize_weather = 1228
+        }
+    }
+    bookmark = {    # A bookmark with a few countries.
+        name = foa_war
+        desc = foa_war_desc
+        date = 2022.1.1.12
+        picture = GFX_select_date_1939
+        
+        default = yes
+        default_country = AVG
+        
+        
+		USI={
+			history = "USI_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		AVG={
+			history = "AVG_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+				AVG_Great_war
+			}
+		}
+		WIT={
+			history = "WIT_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		VLK={
+			history = "_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+				AVG_Great_war
+			}
+		}
+		SIR={
+			history = "SIR_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+				AVG_Great_war
+			}
+		}
+
+        }
+		# minors from DLC ####
+        "---" = {
+            history = OTHER_SCENARIO2_DESC
+        }
+        effect = {
+            randomize_weather = 45768
+        
+        }
+	}
+}
+	

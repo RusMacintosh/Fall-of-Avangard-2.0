@@ -1,0 +1,101 @@
+focus_tree = {
+	id = VIS
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = VIS
+		}
+	}
+	default = no
+	focus = {
+		id = VIS_Prebutye
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 10,00
+		x = 8
+		y = 0
+
+	}
+	focus = {
+		id = VIS_Elections
+		icon = GFX_focus_usa_voter_registration_act
+		cost = 10,00
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = VIS_create_triumvirate
+		icon = GFX_focus_eng_the_kings_party
+		cost = 10,00
+		prerequisite = {
+			focus = VIS_Prebutye
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = VIS_liquidate_anarchism
+		icon = GFX_focus_GRE_bedrock_of_balkan_stability
+		cost = 10,00
+		prerequisite = {
+			focus = VIS_create_triumvirate
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = VIS_reclaime_vis
+		icon = GFX_focus_GRE_reviving_the_double_headed_eagle
+		cost = 10,00
+		prerequisite = {
+			focus = VIS_liquidate_anarchism
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = VIS_Rome
+		icon = GFX_focus_ger_reichskommisariats
+		cost = 10,00
+		prerequisite = {
+			focus = VIS_Elections
+		}
+		mutually_exclusive = {
+			focus = VIS_Visantia
+			focus = VIS_Visantia
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = VIS_create_new_power
+		icon = GFX_focus_generic_little_entente
+		cost = 10,00
+		prerequisite = {
+			focus = VIS_reclaime_vis
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = VIS_Visantia
+		icon = GFX_focus_generic_home_defense
+		cost = 10,00
+		prerequisite = {
+			focus = VIS_Elections
+		}
+		mutually_exclusive = {
+			focus = VIS_Rome
+			focus = VIS_Rome
+		}
+		x = 14
+		y = 3
+
+	}
+}

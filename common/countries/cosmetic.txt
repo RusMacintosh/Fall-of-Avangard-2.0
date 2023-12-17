@@ -1,0 +1,64 @@
+AVG_hunta = {
+	color_ui = rgb {157 245 77}
+	color = rgb {157 245 77}
+}
+AVG1_dem = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG1_com = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG2_fas = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG2_com = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG2_dem = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG3_fas = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG3_com = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG3_dem = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG4_dem = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG4_fas = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG5_dem = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG5_fas = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG6_dem = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG7_dem = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}
+AVG8_dem = {
+	color_ui = rgb {173 0 30}
+	color = rgb {173 0 30}
+}

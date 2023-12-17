@@ -1,0 +1,32 @@
+state={
+	id=945
+	name="STATE_945"
+	provinces={
+		311 6363 9364 
+	}
+	history={
+		owner = DSC
+		victory_points = {
+			9364 3 
+		}
+		victory_points = {
+			311 1 
+		}
+		victory_points = {
+			6363 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		
+
+		}
+		add_core_of = DSC
+
+	}
+	manpower=10137854
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+	
+}

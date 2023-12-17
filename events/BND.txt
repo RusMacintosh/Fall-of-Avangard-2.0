@@ -1,0 +1,54 @@
+add_namespace = bnd
+
+country_event = {
+	id = bnd.1
+	title = bnd.1.t
+	desc = bnd.1.d
+	picture = GFX_report_event_bnd_purge_politicians
+
+	is_triggered_only = yes
+	
+
+	mean_time_to_happen = {
+		days = 3
+	}
+	option = {
+		name = bnd.1.a
+		hidden_effect = {
+			transfer_state = 43
+			transfer_state = 944
+			transfer_state = 154
+			transfer_state = 155
+			add_state_core = 43
+			add_state_core = 944
+			add_state_core = 154
+			add_state_core = 155
+		}
+	}
+}
+country_event = {
+	id = bnd.2
+	title = bnd.2.t
+	desc = bnd.2.d
+	picture = GFX_report_event_bnd_purge_politicians
+
+	is_triggered_only = yes
+	
+
+	mean_time_to_happen = {
+		days = 3
+	}
+	option = {
+		name = bnd.2.a
+		hidden_effect = {
+		transfer_state = 45
+		transfer_state = 664
+		transfer_state = 73
+		transfer_state = 76
+		add_state_core = 45
+		add_state_core = 664
+		add_state_core = 73
+		add_state_core = 76
+		}	
+	}
+}

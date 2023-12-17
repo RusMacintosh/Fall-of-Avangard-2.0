@@ -1,0 +1,28 @@
+state={
+	id=952
+	name="STATE_952"
+	provinces={
+		11435 11470 
+	}
+	history={
+		owner = ABU
+		victory_points = {
+			11435 5
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 3
+		}
+		add_core_of = WIT
+		add_core_of = ABU
+	}
+	manpower=1449000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0 
+}
+
+
+

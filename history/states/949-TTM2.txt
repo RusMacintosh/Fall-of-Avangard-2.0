@@ -1,0 +1,41 @@
+state={
+	id=949
+	name="STATE_949"
+	provinces={
+		6268 9397 
+	}
+	resources={
+		steel=2.000
+	}
+	history={
+		owner = DSC
+		victory_points = {
+			6268 30 
+		}
+		victory_points = {
+			9397 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = DSC
+		1939.1.1 = {
+			buildings = {
+				dockyard = 4
+				industrial_complex = 2
+
+			}
+
+		}
+	}
+
+	
+	manpower=10137854
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

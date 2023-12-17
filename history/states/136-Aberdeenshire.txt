@@ -1,0 +1,40 @@
+
+state={
+	id=136
+	name="STATE_136"
+	resources={
+		tungsten=4.000
+		aluminium=3.000
+	}
+
+	history={
+		owner = DSC
+		victory_points = {
+			200 5 
+		}
+		victory_points = {
+			3150 1 
+		}
+		victory_points = {
+			6300 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			6300 = {
+				naval_base = 5
+
+			}
+		}
+		add_core_of = DSC
+
+	}
+
+	provinces={
+		159 200 3150 6300 9161 9383 11055 11136 11207 11306 
+	}
+	manpower=745466
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

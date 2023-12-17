@@ -1,0 +1,52 @@
+focus_tree = {
+	id = AVG_maks
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AVG
+		}
+	}
+	default = no
+	focus = {
+		id = AVG_maks
+		icon = GFX_focus_eng_god_save_the_king
+		cost = 10,00
+		x = 1
+		y = 0
+
+	}
+	focus = {
+		id = AVG_iumvira
+		icon = GFX_focus_eng_the_kings_party
+		cost = 10,00
+		prerequisite = {
+			focus = AVG_maks
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = AVG_decomm
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10,00
+		prerequisite = {
+			focus = AVG_iumvira
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = AVG_why_we_are_fighting
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10,00
+		prerequisite = {
+			focus = AVG_decomm
+		}
+		x = 1
+		y = 3
+
+	}
+}
