@@ -12,6 +12,11 @@
  DSC_neutrality_ADJ:0 "Дискордск."
  DSC_communism_ADJ:0 "Дискордск."
 
+ 
+
+
+
+
  HLW_fascism:0 "Хольская Хунта"
  HLW_fascism_DEF:0 "Хольская Хунта"
  HLW_neutrality:0 "Холографик ворлд"
@@ -188,6 +193,32 @@
  WIT_democratic_ADJ:0 "Витерляндск."
  WIT_neutrality_ADJ:0 "Витерляндск."
  WIT_communism_ADJ:0 "Витерляндск."
+
+ IBS_fascism:0 "Ибишлендское правительство"
+ IBS_fascism_DEF:0 "Хунта"
+ IBS_neutrality:0 "Ибишленд"
+ IBS_neutrality_DEF:0 "Ибишленд"
+ IBS_democratic:0 "Ибишленд"
+ IBS_democratic_DEF:0 "Ибишленд"
+ IBS_communism:0 "Ибишлендская Социалистическая республика"
+ IBS_communism_DEF:0 "ИСР"
+ IBS_fascism_ADJ:0 "Ибишлендск."
+ IBS_democratic_ADJ:0 "Ибишлендск."
+ IBS_neutrality_ADJ:0 "Ибишлендск."
+ IBS_communism_ADJ:0 "Ибишлендск."
+
+ PUF_fascism:0 "Пуффиендский режим"
+ PUF_fascism_DEF:0 "Хунта"
+ PUF_neutrality:0 "Пуффиленд"
+ PUF_neutrality_DEF:0 "Пуффиленд"
+ PUF_democratic:0 "Пуффиленд"
+ PUF_democratic_DEF:0 "Пуффиленд"
+ PUF_communism:0 "Пуффилендская народная республика"
+ PUF_communism_DEF:0 "ПНР"
+ PUF_fascism_ADJ:0 "Пуффилендск."
+ PUF_democratic_ADJ:0 "Пуффилендск."
+ PUF_neutrality_ADJ:0 "Пуффилендск."
+ PUF_communism_ADJ:0 "Пуффилендск."
 
  USI_fascism:0 "Советское Государство"
  USI_fascism_DEF:0 "СГ"

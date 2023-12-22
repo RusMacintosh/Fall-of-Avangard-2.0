@@ -61,7 +61,7 @@ create_country_leader = {
 create_country_leader = {
     name = "SanuresS"
     desc = ""
-    picture = "gfx/leaders/AVG/Portrait_Pepe_Komunistov.dds" #Картинка
+    picture = "gfx/leaders/default.dds" #Картинка
     expire = "1965.1.1" #Когда умрет
     ideology = marxism
 	##За какую Идеологию (входит в types у коммунистов)

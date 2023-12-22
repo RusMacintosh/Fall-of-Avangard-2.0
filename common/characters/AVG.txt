@@ -1,0 +1,31 @@
+characters = {
+    AVG_Macintosh = {
+        name = AVG_CHAR_MACINTOSH
+        portraits= {
+            civilian = {
+                large="GFX_portrait_Macintosh_large"
+            }
+        }
+    }
+    AVG_Maks = {
+        name = AVG_CHAR_MAKS
+        portraits= {
+            civilian = {
+                large="GFX_portrait_Maks_large"
+            }
+        }
+        country_leader = {
+            ideology = centrism
+            desc = MY_LEADER_DESCRIPTION
+            expire = "2022.1.1.1"
+        }
+    }
+    AVG_SanuresS = {
+        name = AVG_CHAR_SANURESS
+        portraits= {
+            civilian = {
+                large="GFX_portrait_SanuresS_large"
+            }
+        }
+    }
+}

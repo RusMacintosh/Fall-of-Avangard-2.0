@@ -44,7 +44,7 @@ set_popularities = {
 create_country_leader = {
     name = "Пин Пинович"
     desc = ""
-    picture = "gfx/leaders/PIN/Pinport1.dds"
+    picture = "gfx/leaders/default.dds"
     expire = "1965.1.1"
     ideology = nazism
     traits = {
@@ -56,7 +56,7 @@ create_country_leader = {
 create_country_leader = {
     name = "Nikolai Vatutin"
     desc = ""
-    picture = "gfx/leaders/AVG/Portrait_Pepe_Komunistov.dds" #Картинка
+    picture = "gfx/leaders/default.dds" #Картинка
     expire = "1965.1.1" #Когда умрет
     ideology = leninism
 	##За какую Идеологию (входит в types у коммунистов)

@@ -6,7 +6,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = SOT
+		owner = WIT
 		victory_points = {
 			495 5 
 		}
@@ -21,7 +21,7 @@ state={
 
 		}
 		add_core_of = WIT
-		add_core_of = SOT
+		add_core_of = IBS
 
 		1939.1.1 ={
 			buildings = {

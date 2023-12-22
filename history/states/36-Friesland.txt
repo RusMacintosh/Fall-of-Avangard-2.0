@@ -4,6 +4,7 @@ state={
 
 	history={
 		owner = WIT
+		add_core_of = SOT
 		add_core_of = WIT
 		victory_points = {
 			6241 5 

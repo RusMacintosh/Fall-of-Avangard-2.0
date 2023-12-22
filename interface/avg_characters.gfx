@@ -1,0 +1,45 @@
+spriteTypes = {
+	spriteType={
+		name="GFX_portrait_Macintosh_large"
+		texturefile="gfx/leaders/AVG/Macintosh.dds"
+	}
+	spriteType={
+		name="GFX_portrait_Macintosh_small"
+		texturefile="gfx/characters/AVG/Macintosh_adv.dds"
+	}
+	spriteType={
+		name="GFX_portrait_Maks_large"
+		texturefile="gfx/leaders/AVG/Maks_old.dds"
+	}
+	spriteType={
+		name="GFX_portrait_SanuresS_large"
+		texturefile="gfx/leaders/AVG/SanuresS.dds"
+	}
+
+	spriteType={
+		name="GFX_portrait_Yazov_large"
+		texturefile="gfx/leaders/BND/Yazov.dds"
+	}
+	spriteType={
+		name="GFX_portrait_Detective_large"
+		texturefile="gfx/leaders/BND/detective.dds"
+	}
+	spriteType={
+		name="GFX_portrait_Vektor_large"
+		texturefile="gfx/leaders/BND/Vektor.dds"
+	}
+
+	spriteType={
+		name="GFX_portrait_Duglas_large"
+		texturefile="gfx/leaders/WIT/Duglas.dds"
+	}
+	spriteType={
+		name="GFX_portrait_Kitkat_large"
+		texturefile="gfx/leaders/WIT/Kitkat.dds"
+	}
+	spriteType={
+		name="GFX_portrait_Crab_large"
+		texturefile="gfx/leaders/WIT/Crab.dds"
+	}
+
+}

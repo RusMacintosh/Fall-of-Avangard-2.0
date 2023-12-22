@@ -4,6 +4,12 @@ oob = "BND_1936" ##GEG - Тег, заменить
 
 set_research_slots = 2 #Количество ячеек исследования
 
+recruit_character = BND_Yazov
+recruit_character = BND_Detective
+recruit_character = BND_Vektor
+
+
+
 # Технологии, какие будут открыты при старте
 set_technology = {
 	infantry_weapons = 1
@@ -41,38 +47,6 @@ set_popularities = {
 	fascism = 25 ##Фашизм
 }
 
-create_country_leader = {
-    name = "Dmitry Yazov"
-    desc = ""
-    picture = "gfx/leaders/BND/Yazov.dds"
-    expire = "1965.1.1"
-    ideology = despotism
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Vektor"
-    desc = ""
-    picture = "gfx/leaders/BND/Vektor.dds"
-    expire = "1965.1.1"
-    ideology = gen_nazism
-    traits = {
-        #
-    }
-}
-
-create_country_leader = {
-    name = "Detective"
-    desc = ""
-    picture = "gfx/leaders/BND/detective.dds"
-    expire = "1965.1.1"
-    ideology = conservatism
-    traits = {
-        #
-    }
-}
 
 # Лидер Страны
 create_country_leader = {

@@ -1,0 +1,86 @@
+add_namespace = wit
+
+country_event = {
+	id = wit.1
+	title = wit.1.t
+	desc = wit.1.d
+	picture = GFX_report_event_wit_purge_politicians
+
+	is_triggered_only = yes
+	
+
+	mean_time_to_happen = {
+		days = 3
+	}
+	option = {
+		name = wit.1.a
+		hidden_effect = {
+			release = SOT
+			release = IBS
+			release = PUF
+			release = ABU
+		}
+	}
+}
+country_event = {
+	id = wit.2
+	title = wit.2.t
+	desc = wit.2.d
+	picture = GFX_report_event_wit_purge_politicians
+
+	is_triggered_only = yes
+	
+
+	mean_time_to_happen = {
+		days = 3
+	}
+	option = {
+		name = wit.2.a
+		hidden_effect = {
+			annex_country = {
+				target = SOT
+			}
+			annex_country = {
+				target = IBS
+			}
+			annex_country = {
+				target = PUF
+			}
+			annex_country = {
+				target = ABU
+			}
+		}
+	}
+}
+country_event = {
+	id = WIT.3
+	title = WIT.3.t
+	desc = WIT.3.d
+	picture = GFX_report_event_WIT_purge_politicians
+
+	is_triggered_only = yes
+	
+
+	mean_time_to_happen = {
+		days = 3
+	}
+	option = {
+		name = WIT.3.a 
+		recruit_character=WIT_Kitkat
+		add_country_leader_role = {
+    		character = WIT_Kitkat
+    		country_leader = {
+        		ideology = nazism
+        		expire = "1965.1.1.1"
+        		traits = { war_industrialist }
+   			}
+		}
+		promote_character = {
+			character = WIT_Kitkat
+			ideology = nazism
+		}
+		set_politics = {
+			ruling_party = fascism
+		}
+	}
+}

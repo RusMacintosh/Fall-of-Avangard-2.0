@@ -1,0 +1,48 @@
+﻿l_russian:
+ AVG_Elect: "Выборы"
+ AVG_Elect_desc: "Долгожданные выборы на Авангарде. Сталкиваются две идеи развития сервера, модель 2020 года и 'Андромедиан'. Что же дорогие граждане Авангарда выберут?"
+ AVG_SanuresS: "SanuresS"
+ AVG_SanuresS_desc: "Народ Авангарда выбрал Сануресса!"
+ AVG_Maks: "Maks"
+ AVG_Maks_desc: "Народ Авангарда выбрал Макса!"
+ AVG_Election_Results: "Результаты выборов"
+ AVG_Election_Results_desc: "Ура Санурессу!"
+ AVG_Start_reforms: "Начать реформы!"
+ AVG_Start_reforms_desc: "Начинаем реформировать Авангард"
+
+
+
+ ######################################################### решения
+ AVG_debug_cat: "Дебаг решения Авангарда"
+ AVG_debug_cat_desc: " (Исключительно для мододелов) \n Дебаг решения Авангарда"
+ AVG_dbg_AVG0_dec: "Загрузить ветку выборов"
+ AVG_dbg_AVG1_dec: "Загрузить ветку Сануресса"
+ AVG_dbg_AVG2_dec: "Загрузить ветку Макса"
+ AVG_dbg_SanuresS_dec: "Поставить СануресСа"
+ AVG_dbg_Maks_dec: "Поставить Макса"
+ AVG_dbg_Hunta_dec: "Переворот Макса"
+ AVG_dbg_Cosmdrop_dec: "Скинуть косметик тэг"
+ AVG_dbg_AVG1_dem_dec: "Флаг демократ Авангарда n1"
+ AVG_dbg_AVG2_dem_dec: "Флаг демократ Авангарда n2"
+ AVG_dbg_AVG3_dem_dec: "Флаг демократ Авангарда n3"
+ AVG_dbg_AVG4_dem_dec: "Флаг демократ Авангарда n4"
+ AVG_dbg_AVG5_dem_dec: "Флаг демократ Авангарда n5"
+ AVG_dbg_AVG6_dem_dec: "Флаг демократ Авангарда n6"
+ AVG_dbg_AVG7_dem_dec: "Флаг демократ Авангарда n7"
+ AVG_dbg_AVG8_dem_dec: "Флаг демократ Авангарда n8"
+ AVG_dbg_AVG1_com_dec: "Флаг комм Авангарда n1"
+ AVG_dbg_AVG2_com_dec: "Флаг комм Авангарда n2"
+ AVG_dbg_AVG3_com_dec: "Флаг комм Авангарда n3"
+ AVG_dbg_AVG1_fas_dec: "Флаг фаши Авангарда n1"
+ AVG_dbg_AVG2_fas_dec: "Флаг фаши Авангарда n2"
+ AVG_dbg_AVG3_fas_dec: "Флаг фаши Авангарда n3"
+ AVG_dbg_AVG4_fas_dec: "Флаг фаши Авангарда n4"
+ AVG_dbg_AVG5_fas_dec: "Флаг фаши Авангарда n5"
+ AVG_expand_cat: "Расширение территорий"
+ AVG_expand_cat_desc: "Авангард встал на новый путь. Теперь нам нужно расширятся!"
+ AVG_exp_0_dec: "Захватит Гессен"
+ AVG_exp_1_dec: "Захватит Вюртемберг"
+ AVG_exp_2_dec: "Выйти на плато"
+
+
+ 

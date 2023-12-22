@@ -2,7 +2,7 @@ state={
 	id=953
 	name="STATE_953"
 	history={
-		owner = SOT
+		owner = WIT
 		victory_points = {
 			587 5 
 		}
@@ -14,7 +14,7 @@ state={
 
 		}
 		add_core_of = WIT
-		add_core_of = SOT
+		add_core_of = IBS
 		1939.1.1 = {
 			buildings = {
 				air_base = 6

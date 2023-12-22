@@ -1,0 +1,41 @@
+characters = {
+    BND_Yazov = {
+        name = BND_CHAR_YAZOV
+        portraits= {
+            civilian = {
+                large="GFX_portrait_Yazov_large"
+            }
+        }
+        country_leader = {
+            ideology = centrism
+            desc = MY_LEADER_DESCRIPTION
+            expire = "2022.1.1.1"
+        }
+    }
+    BND_Detective = {
+        name = BND_CHAR_DETECTIVE
+        portraits= {
+            civilian = {
+                large="GFX_portrait_Detective_large"
+            }
+        }
+        country_leader = {
+            ideology = liberalism
+            desc = MY_LEADER_DESCRIPTION
+            expire = "2022.1.1.1"
+        }
+    }
+    BND_Vektor = {
+        name = BND_CHAR_VEKTOR
+        portraits= {
+            civilian = {
+                large="GFX_portrait_Vektor_large"
+            }
+        }
+        country_leader = {
+            ideology = nazism
+            desc = MY_LEADER_DESCRIPTION
+            expire = "2022.1.1.1"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+characters = {
+    WIT_Duglas = {
+        name = WIT_CHAR_DUGLAS
+        portraits= {
+            civilian = {
+                large="GFX_portrait_Duglas_large"
+            }
+        }
+        country_leader = {
+            ideology = leninism
+            desc = MY_LEADER_DESCRIPTION
+            expire = "2022.1.1.1"
+        }
+    }
+    WIT_Kitkat = {
+        name = WIT_CHAR_KITKAT
+        portraits= {
+            civilian = {
+                large="GFX_portrait_Kitkat_large"
+            }
+        }
+        country_leader = {
+            ideology = nazism
+            desc = MY_LEADER_DESCRIPTION
+            expire = "2022.1.1.1"
+        }
+    }
+    WIT_Crab = {
+        name = WIT_CHAR_CRAB
+        portraits= {
+            civilian = {
+                large="GFX_portrait_Crab_large"
+            }
+        }
+        country_leader = {
+            ideology = centrism
+            desc = MY_LEADER_DESCRIPTION
+            expire = "2022.1.1.1"
+        }
+    }
+}

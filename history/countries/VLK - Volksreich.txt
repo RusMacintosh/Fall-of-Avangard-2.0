@@ -56,7 +56,7 @@ create_country_leader = {
 create_country_leader = {
     name = ""
     desc = ""
-    picture = "gfx/leaders/WIT/Port_Kitkata.dds" #Картинка
+    picture = "gfx/leaders/default.dds" #Картинка
     expire = "1965.1.1" #Когда умрет
     ideology = moderatism
 	##За какую Идеологию (входит в types у коммунистов)

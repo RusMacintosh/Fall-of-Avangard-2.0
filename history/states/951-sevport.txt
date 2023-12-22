@@ -2,7 +2,7 @@ state={
 	id=951
 	name="STATE_951"
 	history={
-		owner = AVG
+		owner = WIT
 		victory_points = {
 			3576 5
 		}
@@ -25,7 +25,8 @@ state={
 			}
 
 		}
-		add_core_of = AVG
+		add_core_of = PUF
+		add_core_of = WIT
 	}
 	provinces={
 		516 3576 6446 6560 

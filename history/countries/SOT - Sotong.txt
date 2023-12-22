@@ -1,4 +1,4 @@
-capital = 51 ##Наша столица
+capital = 56 ##Наша столица
 
 oob = "SOT_1936" ##GEG - Тег, заменить
 
@@ -57,7 +57,7 @@ create_country_leader = {
 create_country_leader = {
     name = "Tyumen"
     desc = ""
-    picture = "gfx/leaders/AVG/Portrait_Sanuress.dds" #Картинка
+    picture = "gfx/leaders/default.dds" #Картинка
     expire = "1965.1.1" #Когда умрет
     ideology = anarchist_communism
 	##За какую Идеологию (входит в types у коммунистов)

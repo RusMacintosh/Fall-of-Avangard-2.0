@@ -53,19 +53,4 @@ create_country_leader = {
 }
 
 # Лидер Страны
-create_country_leader = {
-    name = "SanuresS"
-    desc = ""
-    picture = "gfx/leaders/AVG/Portrait_Sanuress.dds" #Картинка
-    expire = "1965.1.1" #Когда умрет
-    ideology = liberalism
-	##За какую Идеологию (входит в types у коммунистов)
-    #conservatism, liberalism и socialism - демократия
-    #marxism, leninism, stalinism, anti_revisionism, anarchist_communism - коммунизм
-    #nazism, fascism_ideology, falangism, rexism - национализм 
-    #despotism, oligarchism, moderatism и moderatism - нейтралитет 
-    traits = {
-        #
-    }
-}
 }

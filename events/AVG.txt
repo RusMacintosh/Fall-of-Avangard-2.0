@@ -8,7 +8,7 @@ country_event = {
 	trigger = {
 		# Putting TAG here is almost always a must - that way the event will only trigger for that nation (and not for all nations)
 		tag = AVG
-		has_completed_focus = AVG_Elect
+		has_completed_focus = AVG_vubory
 		
 		# Other CONDITIONS listed here
 	}
@@ -17,7 +17,7 @@ country_event = {
 		name = AVG.1.a
 		# AI CHANCE to choose this OPTION
 		ai_chance = {
-			base = 5
+			base = 15
 		}
 		# When is this OPTION VISIBLE - what conditions you must satisfy in order be able to see this OPTION
 		trigger = {
@@ -26,7 +26,7 @@ country_event = {
 		}
 		
 		# EFFECTS listed here
-		complete_national_focus = AVG_Maks
+		load_focus_tree = AVG_jap
 	}
 	
 	option = {
@@ -34,9 +34,7 @@ country_event = {
 		ai_chance = {
 			base = 5
 		}
-		
-		
-		complete_national_focus = AVG_SanuresS
+		load_focus_tree = AVG_himik
 	}
 }
 country_event = {
@@ -200,3 +198,80 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = AVG.6
+	title = AVG.6.t
+	desc = AVG.6.d
+	picture = GFX_report_event_AVG_purge_politicians
+
+	is_triggered_only = yes
+	
+
+	mean_time_to_happen = {
+		days = 3
+	}
+	option = {
+		name = AVG.6.a 
+		recruit_character=WIT_Kitkat
+		add_country_leader_role = {
+    		character = WIT_Kitkat
+    		country_leader = {
+        		ideology = nazism
+        		expire = "1965.1.1.1"
+        		traits = { war_industrialist }
+   			}
+		}
+		promote_character = {
+			character = WIT_Kitkat
+			ideology = nazism
+		}
+		set_politics = {
+			ruling_party = fascism
+		}
+	}
+}
+country_event = {
+	id = AVG.7
+	title = AVG.7.t
+	desc = AVG.7.d
+	picture = GFX_report_event_AVG_purge_politicians
+
+	is_triggered_only = yes
+	
+
+	mean_time_to_happen = {
+		days = 3
+	}
+	option = {
+		name = AVG.7.a
+		set_country_flag = {
+			flag = AVG_ultim
+			days = 25
+			value = 1
+		}
+	}
+}
+country_event = {
+	id = AVG.8
+	title = AVG.8.t
+	desc = AVG.8.d
+	picture = GFX_report_event_AVG_purge_politicians
+
+	is_triggered_only = yes
+	
+
+	mean_time_to_happen = {
+		days = 3
+	}
+	option = {
+		name = AVG.8.a
+		set_country_flag = {
+			flag = AVG_krash
+			days = 25
+			value = 2
+		}
+	}
+}
+
+
+

@@ -1,0 +1,49 @@
+
+state={
+	id=133
+	name="STATE_133"
+	resources={
+		steel=21.000
+	}
+
+	history={
+		add_core_of = DSC
+		owner = DSC
+		
+		victory_points = {
+			11218 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 4
+			anti_air_building = 2
+			air_base = 3
+			
+
+		}
+		add_core_of = DSC
+		2021.9.30 = {
+			owner = DSC
+			controller = ABC
+
+		}
+		1939.1.1 = {
+			buildings = {
+				dockyard = 5
+				industrial_complex = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6320 6350 9237 9350 11218 
+	}
+	manpower=2257723
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
