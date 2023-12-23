@@ -1,0 +1,103 @@
+focus_tree = {
+	id = AVG_nach
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AVG
+		}
+	}
+	default = no
+	focus = {
+		id = AVG_sz
+		icon = GFX_focus_EST_republican_defence_league
+		cost = 10.00
+		x = 3
+		y = 0
+
+	}
+	focus = {
+		id = AVG_strlk
+		icon = GFX_focus_BUL_power_to_the_tsar
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_sz
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = AVG_ns
+		icon = GFX_focus_DEN_no_regulations
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_strlk
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = AVG_pr1
+		icon = GFX_focus_DEN_limited_regulations
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ns
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = AVG_ld
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_strlk
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = AVG_kn
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ld
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = AVG_avangard
+		icon = GFX_focus_fra_le_deluge
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_pr1
+		}
+		prerequisite = {
+			focus = AVG_kn
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = AVG_vubory
+		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_avangard
+		}
+		x = 3
+		y = 5
+		completion_reward = {
+			# EFFECTS listed here
+			country_event = AVG.1
+		}
+
+	}
+}

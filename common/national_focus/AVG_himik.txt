@@ -1,0 +1,282 @@
+focus_tree = {
+	id = AVG_himik
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = AVG
+		}
+	}
+	default = no
+	focus = {
+		id = AVG_pbd
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 11
+		y = 0
+
+	}
+	focus = {
+		id = AVG_ult
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 6
+		y = 0
+		available = {
+    		has_country_flag = AVG_ultim
+		}
+
+	}
+	focus = {
+		id = AVG_razv
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 11
+		y = 3
+		prerequisite = {
+			focus = AVG_razdel
+			focus = AVG_kont
+		}
+		prerequisite = {
+			focus = AVG_gorod
+		}
+		prerequisite = {
+			focus = AVG_razdel
+		}
+
+	}
+	focus = {
+		id = AVG_yes
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ult
+		}
+		mutually_exclusive = {
+			focus = AVG_kont
+		}
+		hidden_effect = {
+			load_focus_tree = AVG_himik
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = AVG_kont
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ult
+		}
+		mutually_exclusive = {
+			focus = AVG_yes
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = AVG_shz
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_pbd
+		}
+		x = 11
+		y = 1
+
+	}
+	focus = {
+		id = AVG_razdel
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_shz
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = AVG_gorod
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_shz
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = AVG_ban_star
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_shz
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = AVG_ban_komm
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ban_star
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = AVG_chistochki
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ban_komm
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = AVG_anarchy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_razv
+		}
+		prerequisite = {
+			focus = AVG_chistochki
+		}
+		prerequisite = {
+			focus = AVG_kont
+		}
+		prerequisite = {
+			focus = AVG_razdel
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = AVG_naval
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_anarchy
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = AVG_momongo
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_anarchy
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = AVG_bund
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_anarchy
+		}
+		x = 11
+		y = 6
+
+	}
+	focus = {
+		id = AVG_napast_na_bund
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_bund
+		}
+		x = 11
+		y = 7
+
+	}
+	
+	focus = {
+		id = AVG_promka1_himik
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 18
+		y = 1
+	}
+	focus = {
+		id = AVG-akt_himik
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_promka1_himik
+		}
+		x = 18
+		y = 2
+	}
+	focus = {
+		id = AVG_army_himik
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG-akt_himik
+		}
+		mutually_exclusive = {
+			focus = AVG_mod_himik
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = AVG_mod_himik
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG-akt_himik
+		}
+		mutually_exclusive = {
+			focus = AVG_army_himik
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = AVG_ministerstva_himik
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG-akt_himik
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = AVG_promka2_himik
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ministerstva_himik
+			focus = AVG_army_himik
+			focus = AVG_mod_himik
+		}
+		prerequisite = {
+			focus = AVG_ministerstva_himik
+		}
+		x = 18
+		y = 5
+
+	}
+}

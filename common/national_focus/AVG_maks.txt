@@ -3,7 +3,7 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
+			add = 1
 			tag = AVG
 		}
 	}
@@ -47,6 +47,81 @@ focus_tree = {
 		}
 		x = 1
 		y = 3
+
+	}
+	
+	focus = {
+		id = AVG_promka1_Maks
+		icon = GFX_focus_generic_reorient_production
+		cost = 10.00
+		x = 4
+		y = 0
+
+	}
+	focus = {
+		id = AVG-akt_Maks
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_promka1_Maks
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = AVG_army_Maks
+		icon = GFX_focus_generic_full_social_mobilization
+		cost = 10.00
+		prerequisite = {
+			focus = AVG-akt_Maks
+		}
+		mutually_exclusive = {
+			focus = AVG_mod_Maks
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = AVG_mod_Maks
+		icon = GFX_focus_generic_annex_country_2
+		cost = 10.00
+		prerequisite = {
+			focus = AVG-akt_Maks
+		}
+		mutually_exclusive = {
+			focus = AVG_army_Maks
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = AVG_ministerstva_Maks
+		icon = GFX_focus_FIN_confederated_finno_russian_republics
+		cost = 10.00
+		prerequisite = {
+			focus = AVG-akt_Maks
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = AVG_promka2_Maks
+		icon = GFX_focus_FIN_salvaged_and_retooled
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ministerstva_Maks
+			focus = AVG_army_Maks
+			focus = AVG_mod_Maks
+		}
+		prerequisite = {
+			focus = AVG_ministerstva_Maks
+		}
+		x = 4
+		y = 4
 
 	}
 }

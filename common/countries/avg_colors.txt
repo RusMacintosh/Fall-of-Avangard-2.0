@@ -63,6 +63,14 @@ ABU = {
 	color = rgb {18 116 1}
 }
 SOT = {
+	color_ui = rgb {33 33 33}
+	color = rgb {33 33 33}
+}
+PUF = {
+	color_ui = rgb {255 25 75}
+	color = rgb {255 25 75}
+}
+IBS = {
 	color_ui = rgb {82 67 74}
 	color = rgb {82 67 74}
 }

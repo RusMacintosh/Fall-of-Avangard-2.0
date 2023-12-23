@@ -1,0 +1,285 @@
+focus_tree = {
+	id = AVG_jap
+	country = {
+		factor = 0
+		modifier = {
+			add = 1
+			tag = AVG
+		}
+	}
+	default = no
+	focus = {
+		id = AVG_pb
+		icon = GFX_focus_jap_showa_restoration
+		cost = 10.00
+		x = 9
+		y = 0
+
+	}
+	focus = {
+		id = AVG_promka1
+		icon = GFX_focus_generic_reorient_production
+		cost = 10.00
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = AVG_reform
+		icon = GFX_focus_generic_concessions
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_pb
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = AVG_otec
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_reform
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = AVG_nov
+		icon = GFX_focus_ETH_support_from_the_japanese_communists
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_otec
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = AVG_gegman
+		icon = GFX_focus_hun_assassinate_horthy
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_nov
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = AVG_kol
+		icon = GFX_focus_fra_loyalty_trotzky
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_otec
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = AVG_pr
+		icon = GFX_focus_BUL_plot_against_boris
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_kol
+		}
+		mutually_exclusive = {
+			focus = AVG_ban
+			focus = AVG_ban
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = AVG_ba
+		icon = GFX_focus_focus_fra_fascist_threat
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_otec
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = AVG_ban
+		icon = GFX_focus_BUL_oppose_the_royal_dictatorship
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ba
+			focus = AVG_ba
+		}
+		prerequisite = {
+			focus = AVG_kol
+		}
+		mutually_exclusive = {
+			focus = AVG_pr
+			focus = AVG_pr
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = AVG_RP
+		icon = GFX_focus_focus_fra_border
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_otec
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = AVG_RP_AVANGARD
+		icon = GFX_focus_fra_french_union
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_RP
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = AVG_Lavr
+		icon = GFX_focus_generic_vatican_agents
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_RP_AVANGARD
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = AVG-akt
+		icon = GFX_focus_generic_commonwealth_build_infantry
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_promka1
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = AVG_army
+		icon = GFX_focus_generic_full_social_mobilization
+		cost = 10.00
+		prerequisite = {
+			focus = AVG-akt
+		}
+		mutually_exclusive = {
+			focus = AVG_mod
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = AVG_ministerstva
+		icon = GFX_focus_FIN_confederated_finno_russian_republics
+		cost = 10.00
+		prerequisite = {
+			focus = AVG-akt
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = AVG_mod
+		icon = GFX_focus_generic_annex_country_2
+		cost = 10.00
+		prerequisite = {
+			focus = AVG-akt
+		}
+		mutually_exclusive = {
+			focus = AVG_army
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = AVG_promka2
+		icon = GFX_focus_FIN_salvaged_and_retooled
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ministerstva
+			focus = AVG_army
+			focus = AVG_mod
+		}
+		prerequisite = {
+			focus = AVG_ministerstva
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = AVG_mak
+		icon = GFX_focus_fra_loyalty_stalin
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_nov
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = AVG_ap_up
+		icon = GFX_focus_FIN_confederated_finno_russian_republics
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_gegman
+			focus = AVG_mak
+			focus = AVG_pr
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = AVG_vb
+		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ap_up
+			focus = AVG_Lavr
+		}
+		mutually_exclusive = {
+			focus = AVG_ost
+			focus = AVG_ost
+		}
+		x = 8
+		y = 6
+
+	}
+	focus = {
+		id = AVG_ost
+		icon = GFX_focus_usa_voter_registration_act
+		cost = 10.00
+		prerequisite = {
+			focus = AVG_ap_up
+			focus = AVG_Lavr
+		}
+		mutually_exclusive = {
+			focus = AVG_vb
+			focus = AVG_vb
+		}
+		x = 10
+		y = 6
+		available = {
+    		has_country_flag = AVG_testum
+		}
+
+	}
+}

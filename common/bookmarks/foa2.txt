@@ -2,7 +2,7 @@ bookmarks = {
     bookmark = {    # Relatively empty bookmark
         name = foa_start
         desc = foa_start_desc
-        date = 2021.1.1.12
+        date = 2021.3.8.12
         picture = GFX_select_date_1936
 
 		default = yes
@@ -32,7 +32,9 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-				AVG_Great_war
+				AVG_sz
+				AVG_strlk
+				AVG_avangard
 			}
 		}
 		VLK={
@@ -41,7 +43,7 @@ bookmarks = {
 			ideas = { 
 			}
 			focuses = {
-				AVG_Great_war
+
 			}
 		}
 		SIR={
@@ -50,7 +52,7 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-				AVG_Great_war
+
 			}
 		}
 		
@@ -96,7 +98,7 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-				AVG_Great_war
+
 			}
 		}
 		WIT={
@@ -113,7 +115,7 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-				AVG_Great_war
+
 			}
 		}
 		SIR={
@@ -122,7 +124,7 @@ bookmarks = {
 			ideas = {
 			}
 			focuses = {
-				AVG_Great_war
+				
 			}
 		}
 

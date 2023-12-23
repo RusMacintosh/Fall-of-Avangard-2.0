@@ -7,7 +7,7 @@ state = {
 	
 	
 	history = {
-		owner = PIN
+		owner = DSC
 		add_core_of = PIN
 		victory_points = { 12674 1 }
 		buildings = {

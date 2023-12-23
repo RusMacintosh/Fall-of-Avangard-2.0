@@ -27,7 +27,7 @@ focus_tree = {
 			}
 		}
 		completion_reward = {
-			country_event = avg.5
+			country_event = dsc.1
 		}
 
 	}
